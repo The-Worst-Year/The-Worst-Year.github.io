@@ -178,6 +178,32 @@ fadeUp6
 
 
 
+var fadeUp7 = anime.timeline({
+	loop: false,
+	autoplay: false,
+});
+
+fadeUp7
+	.add({
+		targets: '.fade-up7 .letter',
+		translateY: [100, 0],
+		translateZ: 0,
+		opacity: [0, 1],
+		easing: "easeOutExpo",
+		duration: 4000,
+		delay: (el, i) => 300 + 30 * i
+	}).add({
+		targets: '.fade-up7 .letter',
+		translateY: [0, -100],
+		opacity: [1, 0],
+		easing: "easeInExpo",
+		duration: 1200,
+		delay: (el, i) => 100 + 30 * i
+	});
+
+
+
+
 
 
 
@@ -212,3 +238,8 @@ setTimeout(() => {
 	// Put the play below this line
 	fadeUp6.play();
 }, 49500);
+
+setTimeout(() => {
+	// Put the play below this line
+	fadeUp7.play();
+}, 59000);

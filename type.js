@@ -408,6 +408,30 @@ fadeUp14
 
 
 
+var fadeUp15 = anime.timeline({
+	loop: false,
+	autoplay: false,
+});
+
+fadeUp15
+	.add({
+		targets: '.fade-up15 .letter',
+		translateY: [100, 0],
+		translateZ: 0,
+		opacity: [0, 1],
+		easing: "easeOutExpo",
+		duration: 4000,
+		delay: (el, i) => 300 + 30 * i
+	});
+
+
+
+
+
+
+
+
+
 // Wait before playing animation
 setTimeout(() => {
 	// Put the play below this line
@@ -491,4 +515,13 @@ setTimeout(() => {
 setTimeout(() => {
 	// Put the play below this line
 	fadeUp14.play();
+}, 105500);
+
+
+
+
+
+setTimeout(() => {
+	// Put the play below this line
+	fadeUp15.play();
 }, 105500);

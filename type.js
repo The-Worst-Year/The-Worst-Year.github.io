@@ -204,6 +204,120 @@ fadeUp7
 
 
 
+var fadeUp8 = anime.timeline({
+	loop: false,
+	autoplay: false,
+});
+
+fadeUp8
+	.add({
+		targets: '.fade-up8 .letter',
+		translateY: [100, 0],
+		translateZ: 0,
+		opacity: [0, 1],
+		easing: "easeOutExpo",
+		duration: 4000,
+		delay: (el, i) => 300 + 30 * i
+	}).add({
+		targets: '.fade-up8 .letter',
+		translateY: [0, -100],
+		opacity: [1, 0],
+		easing: "easeInExpo",
+		duration: 1200,
+		delay: (el, i) => 100 + 30 * i
+	});
+
+
+
+
+
+var fadeUp9 = anime.timeline({
+	loop: false,
+	autoplay: false,
+});
+
+fadeUp9
+	.add({
+		targets: '.fade-up9 .letter',
+		translateY: [100, 0],
+		translateZ: 0,
+		opacity: [0, 1],
+		easing: "easeOutExpo",
+		duration: 4000,
+		delay: (el, i) => 300 + 30 * i
+	}).add({
+		targets: '.fade-up9 .letter',
+		translateY: [0, -100],
+		opacity: [1, 0],
+		easing: "easeInExpo",
+		duration: 1200,
+		delay: (el, i) => 100 + 30 * i
+	});
+
+
+
+
+
+
+var fadeUp10 = anime.timeline({
+	loop: false,
+	autoplay: false,
+});
+
+fadeUp10
+	.add({
+		targets: '.fade-up10 .letter',
+		translateY: [100, 0],
+		translateZ: 0,
+		opacity: [0, 1],
+		easing: "easeOutExpo",
+		duration: 4000,
+		delay: (el, i) => 300 + 30 * i
+	}).add({
+		targets: '.fade-up10 .letter',
+		translateY: [0, -100],
+		opacity: [1, 0],
+		easing: "easeInExpo",
+		duration: 1200,
+		delay: (el, i) => 100 + 30 * i
+	});
+
+
+
+
+
+
+var fadeUp11 = anime.timeline({
+	loop: false,
+	autoplay: false,
+});
+
+fadeUp11
+	.add({
+		targets: '.fade-up11 .letter',
+		translateY: [100, 0],
+		translateZ: 0,
+		opacity: [0, 1],
+		easing: "easeOutExpo",
+		duration: 4000,
+		delay: (el, i) => 300 + 30 * i
+	}).add({
+		targets: '.fade-up11 .letter',
+		translateY: [0, -100],
+		opacity: [1, 0],
+		easing: "easeInExpo",
+		duration: 1200,
+		delay: (el, i) => 100 + 30 * i
+	});
+
+
+
+
+
+
+
+
+
 
 
 
@@ -243,3 +357,34 @@ setTimeout(() => {
 	// Put the play below this line
 	fadeUp7.play();
 }, 59000);
+
+
+
+
+//************************* white slides starts ***************************//
+
+
+
+
+setTimeout(() => {
+	// Put the play below this line
+	fadeUp8.play();
+}, 64500);
+
+
+setTimeout(() => {
+	// Put the play below this line
+	fadeUp9.play();
+}, 70000);
+
+
+setTimeout(() => {
+	// Put the play below this line
+	fadeUp10.play();
+}, 76000);
+
+
+setTimeout(() => {
+	// Put the play below this line
+	fadeUp11.play();
+}, 81500);

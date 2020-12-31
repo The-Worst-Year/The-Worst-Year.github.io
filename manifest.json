@@ -1,0 +1,28 @@
+{
+    "dir": "ltr",
+    "lang": "English",
+    "name": "The Worst Year 2020",
+    "short_name": "The Worst Year",
+    "scope": "/",
+    "display": "fullscreen",
+    "start_url": "https://theworstyear.in/",
+    "background_color": "#000000",
+    "description": "We united, raised our voices, learned to be together while being apart, as we witnessed significant world-shifting events–from a global movement for racial justice to a deadly pandemic.",
+    "orientation": "any",
+    "related_applications": [],
+    "prefer_related_applications": false,
+	"icons": [
+      {
+        "src": "https://raw.githubusercontent.com/The-Worst-Year/The-Worst-Year.github.io/main/icon192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/The-Worst-Year/The-Worst-Year.github.io/main/icon512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "theme_color": "#000000",
+    "screenshots": []
+}

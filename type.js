@@ -317,6 +317,92 @@ fadeUp11
 
 
 
+var fadeUp12 = anime.timeline({
+	loop: false,
+	autoplay: false,
+});
+
+fadeUp12
+	.add({
+		targets: '.fade-up12 .letter',
+		translateY: [100, 0],
+		translateZ: 0,
+		opacity: [0, 1],
+		easing: "easeOutExpo",
+		duration: 4000,
+		delay: (el, i) => 300 + 30 * i
+	}).add({
+		targets: '.fade-up12 .letter',
+		translateY: [0, -100],
+		opacity: [1, 0],
+		easing: "easeInExpo",
+		duration: 1200,
+		delay: (el, i) => 100 + 30 * i
+	});
+
+
+
+
+
+
+
+
+
+var fadeUp13 = anime.timeline({
+	loop: false,
+	autoplay: false,
+});
+
+fadeUp13
+	.add({
+		targets: '.fade-up13 .letter',
+		translateY: [100, 0],
+		translateZ: 0,
+		opacity: [0, 1],
+		easing: "easeOutExpo",
+		duration: 4000,
+		delay: (el, i) => 300 + 30 * i
+	}).add({
+		targets: '.fade-up13 .letter',
+		translateY: [0, -100],
+		opacity: [1, 0],
+		easing: "easeInExpo",
+		duration: 1200,
+		delay: (el, i) => 100 + 30 * i
+	});
+
+
+
+
+
+
+
+var fadeUp14 = anime.timeline({
+	loop: false,
+	autoplay: false,
+});
+
+fadeUp14
+	.add({
+		targets: '.fade-up14 .letter',
+		translateY: [100, 0],
+		translateZ: 0,
+		opacity: [0, 1],
+		easing: "easeOutExpo",
+		duration: 4000,
+		delay: (el, i) => 300 + 30 * i
+	}).add({
+		targets: '.fade-up14 .letter',
+		translateY: [0, -100],
+		opacity: [1, 0],
+		easing: "easeInExpo",
+		duration: 1200,
+		delay: (el, i) => 100 + 30 * i
+	});
+
+
+
+
 
 
 
@@ -381,10 +467,28 @@ setTimeout(() => {
 setTimeout(() => {
 	// Put the play below this line
 	fadeUp10.play();
-}, 76000);
+}, 76500);
 
 
 setTimeout(() => {
 	// Put the play below this line
 	fadeUp11.play();
-}, 81500);
+}, 82500);
+
+
+setTimeout(() => {
+	// Put the play below this line
+	fadeUp12.play();
+}, 88500);
+
+
+setTimeout(() => {
+	// Put the play below this line
+	fadeUp13.play();
+}, 99500);
+
+
+setTimeout(() => {
+	// Put the play below this line
+	fadeUp14.play();
+}, 105500);

@@ -497,25 +497,25 @@ setTimeout(() => {
 setTimeout(() => {
 	// Put the play below this line
 	fadeUp11.play();
-}, 82500);
+}, 84500); // 2 seconds added to ' raised-voice'
 
 
 setTimeout(() => {
-	// Put the play below this line
+	// Put the play below this line					// 3 seconds added to ' taught ourselves '
 	fadeUp12.play();
-}, 88500);
+}, 93500);
 
 
 setTimeout(() => {
 	// Put the play below this line
-	fadeUp13.play();
-}, 99500);
+	fadeUp13.play(); // 2 seconds added to ' world-events '
+}, 106500);
 
 
 setTimeout(() => {
-	// Put the play below this line
+	// Put the play below this line					// 3 second added to ' we-dont-know '
 	fadeUp14.play();
-}, 105500);
+}, 115500);
 
 
 
@@ -524,4 +524,4 @@ setTimeout(() => {
 setTimeout(() => {
 	// Put the play below this line
 	fadeUp15.play();
-}, 105500);
+}, 123000);
